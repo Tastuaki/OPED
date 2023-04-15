@@ -8,8 +8,7 @@ with open("+title.txt","r+") as f:
     tdata=f.readlines()
     print(tdata)
     for i in range(len(tdata)):
-        if tdata[i] in "mp3":
+        if "mp3" in tdata[i]:
             data.append(tdata[i])
-    
     print(data)
     f.writelines(data)
