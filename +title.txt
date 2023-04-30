@@ -36,8 +36,8 @@ Charlotte OP.mp3
 C³ -シーキューブ- OP1(Endless Story).mp3
 C³ -シーキューブ- OP2(紋).mp3
 DOG DAYS OP(SCALET KNIGHT).mp3
-DOG DAYS' ED(夏の約束).mp3
-DOG DAYS' OP(FEARLESS HERO).mp3
+DOG DAYS ED(夏の約束).mp3
+DOG DAYS OP(FEARLESS HERO).mp3
 Deep Insanity THE LOST CHILD ED(真珠色の革命).mp3
 Deep Insanity THE LOST CHILD OP(命の灯火).mp3
 Dimension W ED.mp3
@@ -63,9 +63,9 @@ Fate_Grand Order -絶対魔獣戦線バビロニア- ED2.mp3
 Fate_Grand Order -絶対魔獣戦線バビロニア- ED3.mp3
 Fate_Grand Order -絶対魔獣戦線バビロニア- OP.mp3
 Fate_Zero 第1期 ED(MEMORIA).mp3
-Fate_stay night [Heaven's Feel] I.presage flower 主題歌.mp3
-Fate_stay night [Heaven's Feel] II.lost butterfly 主題歌.mp3
-Fate_stay night [Heaven's Feel] III.spring song 主題歌.mp3
+Fate_stay night [Heavens Feel] I.presage flower 主題歌.mp3
+Fate_stay night [Heavens Feel] II.lost butterfly 主題歌.mp3
+Fate_stay night [Heavens Feel] III.spring song 主題歌.mp3
 Fate_stay night [Unlimited Blade Works] OP2.mp3
 Fate_strange Fake - Whispers of Dawn 主題曲(FAKEit).mp3
 GANGSTA. ED.mp3
@@ -113,7 +113,7 @@ PSYCHO-PASS サイコパス OP2.mp3
 Paradise Kiss OP(Lonely In Gorgeous).mp3
 Peeping Life TVシーズン1？？ OP(HOTELエイリアン).mp3
 Persona 4 The Animation OP 4(Key Plus Words).mp3
-Persona 4 the Animation OP 1(Sky's the limit).mp3
+Persona 4 the Animation OP 1(Skys the limit).mp3
 RAIL WARS! ED(OVERDRIVER).mp3
 RELEASE THE SPYCE ED(Hide   Seek).mp3
 Re_CREATORS OP1.mp3
@@ -140,7 +140,7 @@ TIGER & BUNNY OP1.mp3
 To LOVEる -とらぶる- ダークネス OP.mp3
 UN-GO ED(Fantasy).mp3
 UN-GO OP(How to Go).mp3
-VIVY -Fluorite Eye's Song- OP.mp3
+VIVY -Fluorite Eyes Song- OP.mp3
 pet ED.mp3
 revisions リヴィジョンズ OP.mp3
 selector infected WIXOSS ED.mp3
@@ -179,7 +179,7 @@ selector spread WIXOSS OP.mp3
 くまクマ熊ベアー ED.mp3
 くまクマ熊ベアー OP.mp3
 ぐらんぶる OP.mp3
-けいおん! ED(Don't say lazy).mp3
+けいおん! ED(Dont say lazy).mp3
 けいおん! OP(Cagayake!GIRLS).mp3
 けいおん! 挿入歌2(ふわふわ時間).mp3
 けいおん!! ED1(Listen!!).mp3
@@ -367,7 +367,7 @@ selector spread WIXOSS OP.mp3
 オーバーロードII OP.mp3
 オーバーロードIII ED.mp3
 オーバーロードIII OP.mp3
-オーバーロードⅣ ED(No Man's Dawn).mp3
+オーバーロードⅣ ED(No Mans Dawn).mp3
 オーバーロードⅣ OP(HOLLOW HUNGER).mp3
 カゲロウプロジェクト ED(days).mp3
 カゲロウプロジェクト OP(daze).mp3
@@ -380,7 +380,7 @@ selector spread WIXOSS OP.mp3
 ガリレイドンナ OP.mp3
 ガンスリンガー ストラトス OP(vanilla sky).mp3
 ガンスリンガー・ガール OP(たった一つの想い).mp3
-ガンダムビルドファイターズ OP2(wimp ft. Lil' Fang).mp3
+ガンダムビルドファイターズ OP2(wimp ft. Lil Fang).mp3
 キズナイーバー OP(LAY YOUR HANDS ON ME).mp3
 キノの旅 -the Beautiful World- ED.mp3
 キノの旅 -the Beautiful World- OP.mp3
@@ -407,7 +407,7 @@ selector spread WIXOSS OP.mp3
 ゴブリンスレイヤー OP.mp3
 ゴールデンタイム ED1(Sweet&Sweet CHERRY).mp3
 ゴールデンタイム OP1(Golden Time).mp3
-ゴールデンタイム OP2(The♡world's♡end).mp3
+ゴールデンタイム OP2(The♡worlds♡end).mp3
 サムライチャンプルー OP(battlecry).mp3
 サーバント×サービス OP(めいあいへるぷゆー？).mp3
 シドニアの騎士 OP.mp3
@@ -427,7 +427,7 @@ selector spread WIXOSS OP.mp3
 ジョジョの奇妙な冒険 ダイヤモンドは砕けない ED(I Want You).mp3
 ジョジョの奇妙な冒険 ダイヤモンドは砕けない OP1(CRAZY NOISY BIZARRE TOWN).mp3
 ジョジョの奇妙な冒険 ダイヤモンドは砕けない OP4(Great Days).mp3
-ジョジョの奇妙な冒険 黄金の風 ED1(Freek'n You).mp3
+ジョジョの奇妙な冒険 黄金の風 ED1(Freekn You).mp3
 ジョジョの奇妙な冒険 黄金の風 ED2(Modern Crusaders).mp3
 スクライド OP1(Reckless fire).mp3
 ストライクウィッチーズ ROAD to BERLIN OP.mp3
@@ -451,7 +451,7 @@ selector spread WIXOSS OP.mp3
 セイクリッドセブン OP.mp3
 セントールの悩み ED.mp3
 ゼロの使い魔 OP(First Kiss).mp3
-ゼロの使い魔F OP(I'LL BE THERE FOR YOU).mp3
+ゼロの使い魔F OP(ILL BE THERE FOR YOU).mp3
 ゼロの使い魔〜双月の騎士〜 ED(スキ？ キライ!？ スキ!!!).mp3
 ソマリと森の神様 ED(ココロソマリ).mp3
 ソードアート・オンライン -プログレッシブ- 星なき夜のアリア 主題歌(往け).mp3
@@ -927,7 +927,7 @@ selector spread WIXOSS OP.mp3
 私に天使が舞い降りた! OP.mp3
 私に天使が舞い降りた!キャラソン(あかいろリトルリーダー).mp3
 私に天使が舞い降りた!キャラソン(シュガーコート・ドリーム).mp3
-私に天使が舞い降りた!キャラソン(私に''好き''が舞い降りた).mp3
+私に天使が舞い降りた!キャラソン(私に好きが舞い降りた).mp3
 究極進化したフルダイブRPGが現実よりもクソゲーだったら OP(ANSWER).mp3
 空中ブランコ  ED(shangri la (yoshinori sunahara 2009 remod)).mp3
 空中ブランコ OP(Upside Down).mp3
@@ -948,7 +948,7 @@ selector spread WIXOSS OP.mp3
 結城友奈は勇者である -大満開の章- OP.mp3
 結城友奈は勇者である -鷲尾須美の章- OP1.mp3
 結城友奈は勇者である -鷲尾須美の章- OP2.mp3
-緋弾のアリアAA OP(Bull's Eye).mp3
+緋弾のアリアAA OP(Bulls Eye).mp3
 翠星のガルガンティア ED.mp3
 翠星のガルガンティア OP.mp3
 聖剣使いの禁呪詠唱 OP.mp3
@@ -1042,7 +1042,7 @@ selector spread WIXOSS OP.mp3
 魔法少女まどか☆マギカ 叛逆の物語 主題歌(カラフル).mp3
 魔法少女サイト OP.mp3
 魔法少女リリカルなのは OP(innocent starter).mp3
-魔法少女リリカルなのはA's ED(Spiritual Garden).mp3
+魔法少女リリカルなのはAs ED(Spiritual Garden).mp3
 魔法少女リリカルなのはStrikerS ED1(星空のSpica).mp3
 魔法少女リリカルなのはStrikerS ED2(Beautiful Amulet).mp3
 魔法少女リリカルなのはStrikerS OP2(MASSIVE WONDERS).mp3
