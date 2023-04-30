@@ -546,8 +546,8 @@ selector spread WIXOSS OP.mp3
 バック・アロウ OP2(鼓動).mp3
 パパのいうことを聞きなさい! OP(Happy Girl).mp3
 パラッパラッパー OP1(LOVE TOGETHER).mp3
-ビルディバイド -#000000- ED(Gold).mp3
-ビルディバイド -#000000- OP(BANG!!!).mp3
+ビルディバイド -%23000000- ED(Gold).mp3
+ビルディバイド -%23000000- OP(BANG!!!).mp3
 ファイ・ブレイン 神のパズル 第2期 OP.mp3
 フリップフラッパーズ ED.mp3
 フリップフラッパーズ OP.mp3
