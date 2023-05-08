@@ -6,7 +6,8 @@ con = ""
 # git ls-tree -r --name-only HEAD > +title.txt
 path = os.getcwd()
 print(path)
-out = subprocess.run(["ls",">","+title.txt"],shell=True)
+# out = subprocess.run(["ls",">","+title.txt"],shell=True)
+out = subprocess.run(["git","ls-tree","-r","--name-only","HEAD",">","+title.txt"],shell=True)
 with open("+title.txt","r+") as f:
     tdata=f.readlines()
     f.truncate(0)
