@@ -14,4 +14,4 @@ with open("+title.txt","r+") as f:
     f.seek(0)
     for con in tdata:
         if "mp3" in con:
-            f.write(con.replace("\'","").replace("#","%23"))
+            f.write(con.replace("\'",""))
