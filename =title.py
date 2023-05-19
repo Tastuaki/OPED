@@ -1,19 +1,42 @@
 import subprocess
 import os
 import codecs
+import io
+import glob
 
-tdata = []
-con = ""
+# tdata = []
+# con = ""
+
+files_path = glob.glob(os.path.join(os.getcwd(),"*.mp3"))
+files = [os.path.basename(i) for i in files_path]
+
+with open("+title.txt",w+) as f:
+    for row in files:
+        print(row)
+        # f.write(row.replace("\'",""))
+
+# out = subprocess.run(["dir","*.mp3","/b",">","++title.txt"],shell=True)
+
 # git ls-tree -r --name-only HEAD > +title.txt
-path = os.getcwd()
-print(path)
-out = subprocess.run(["dir","*.mp3","/b",">","++title.txt"],shell=True)
 # out = subprocess.run(["git","ls-tree","-r","--name-only","HEAD",">","+title.txt"],shell=True)
-with codecs.open("++title.txt", "r", "shift_jis") as s:
-    data = s.readlines()
-    with codecs.open("+title.txt", "w", "utf-8") as u:
-        for row in data:
-            u.write(row)
+
+# with open("++title.txt", "rb") as src, open("+title.txt", "wb") as dest:
+
+#     # 変換ストリームを作成
+#     stream = codecs.StreamRecoder(
+#         src,
+#         codecs.lookup("utf_8").encode, codecs.lookup("shift_jis").decode,
+#         src_codec.streamreader, dest_codec.streamwriter,
+#     )
+#     reader = io.BufferedReader(stream)
+
+#     while True:
+#         data = reader.read1()
+#         if not data:
+#             break
+#         dest.write(data)
+#         dest.flush()
+
 # with open("+title.txt","r+",encoding="utf-8") as f:
 #     tdata=f.readlines()
 #     f.truncate(0)
