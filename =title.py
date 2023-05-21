@@ -7,11 +7,16 @@ import glob
 # tdata = []
 # con = ""
 
-files_path = glob.glob(os.path.join(os.getcwd(),"*.mp3"))
+base = os.getcwd()
+files_path = glob.glob(os.path.join(base,"*.mp3"))
 files = [os.path.basename(i) for i in files_path]
 
 with open("+title.txt",'w+', encoding='utf-8') as f:
     for row in files:
+        if("〜" in row):
+            orow = row
+            row = row.replace("〜","～")
+            os.rename(base+"\\"+orow,base+"\\"+row)
         row += "\n"
         f.writelines(row)
 
