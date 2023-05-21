@@ -10,10 +10,10 @@ import glob
 files_path = glob.glob(os.path.join(os.getcwd(),"*.mp3"))
 files = [os.path.basename(i) for i in files_path]
 
-with open("+title.txt",w+) as f:
+with open("+title.txt",'w+', encoding='utf-8') as f:
     for row in files:
-        print(row)
-        # f.write(row.replace("\'",""))
+        row += "\n"
+        f.writelines(row)
 
 # out = subprocess.run(["dir","*.mp3","/b",">","++title.txt"],shell=True)
 

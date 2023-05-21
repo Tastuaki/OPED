@@ -37,8 +37,8 @@ CHAOS;HEAD OP(F.D.D.).mp3
 Charlotte ED(灼け落ちない翼).mp3
 Charlotte OP(Bravely You).mp3
 CLAYMORE ED(断罪の花～GuiLty Sky～).mp3
-C3 -シーキューブ- OP1(Endless Story).mp3
-C3 -シーキューブ- OP2(紋).mp3
+C³ -シーキューブ- OP1(Endless Story).mp3
+C³ -シーキューブ- OP2(紋).mp3
 Deep Insanity THE LOST CHILD ED(真珠色の革命).mp3
 Deep Insanity THE LOST CHILD OP(命の灯火).mp3
 Dimension W ED(Contrast).mp3
@@ -71,7 +71,7 @@ FGO 人智統合真国 SIN(Thest).mp3
 FGO 地獄界曼荼羅 平安京.mp3
 FGO 徳川廻天迷宮 大奥(深淵のデカダンス).mp3
 FGO 栄光のサンタクロース・ロード ～封じられたクリスマスプレゼント～(Frozen Hope).mp3
-FGO 虚数大海戦イマジナリ・スクランブル ?ノーチラス浮上せよ? (幻日).mp3
+FGO 虚数大海戦イマジナリ・スクランブル 〜ノーチラス浮上せよ〜 (幻日).mp3
 GANGSTA. ED(夜の国).mp3
 GANGSTA. OP(Renegade).mp3
 Gosick ED1(Resuscitated Hope).mp3
@@ -174,7 +174,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 うみねこのなく頃に OP(片翼の鳥).mp3
 えとたま ED(blue moment).mp3
 えとたま OP(リトライ☆ランデヴー).mp3
-えんどろ?! ED(Wonder Caravan！).mp3
+えんどろ〜! ED(Wonder Caravan！).mp3
 おおかみかくし ED(月導 -Tsukishirube-).mp3
 おおかみかくし OP(時の向こう 幻の空).mp3
 お兄ちゃんだけど愛さえあれば関係ないよねっ OP(SELF PEODUCER).mp3
@@ -211,12 +211,12 @@ VIVY -Fluorite Eye's Song- OP.mp3
 ご注文はうさぎですか？ BLOOM OP(天空カフェテリア).mp3
 ご注文はうさぎですか？ ED1(ぽっぴんジャンプ♪).mp3
 ご注文はうさぎですか？ ED2(日常デコレーション).mp3
-ご注文はうさぎですか？ OP(Daydream cafe).mp3
+ご注文はうさぎですか？ OP(Daydream café).mp3
 ご注文はうさぎですか？？ ED1(ときめきポポロン♪).mp3
 ご注文はうさぎですか？？ OP(ノーポイッ!).mp3
 ささみさん@がんばらない OP(Alteration).mp3
 さよなら絶望先生 OP1(人として軸がぶれている).mp3
-されど罪人は竜と踊る ED(decadence -デカダンス-).mp3
+されど罪人は竜と踊る ED(décadence -デカダンス-).mp3
 すべてがFになる THE PERFECT INSIDER ED(ナナヒツジ).mp3
 すべてがFになる THE PERFECT INSIDER OP(talking).mp3
 その着せ替え人形は恋をする OP(燦々デイズ).mp3
@@ -419,8 +419,8 @@ VIVY -Fluorite Eye's Song- OP.mp3
 グレイプニル OP(Altern-ate-).mp3
 ケムリクサ ED(INDETERMINATE UNIVERSE).mp3
 ケムリクサ OP(KEMURIKUSA).mp3
-コンクリート・レボルティオ?超人幻想? OP(カタラレズトモ).mp3
-コンクリート・レボルティオ?超人幻想?THE LAST SONG OP(割レル慟哭).mp3
+コンクリート・レボルティオ〜超人幻想〜 OP(カタラレズトモ).mp3
+コンクリート・レボルティオ〜超人幻想〜THE LAST SONG OP(割レル慟哭).mp3
 コードギアス 反逆のルルーシュ OP1(COLORS).mp3
 コードギアス 反逆のルルーシュ(15周年) ED2(SAKURA BURST).mp3
 コードギアス 反逆のルルーシュ(15周年) OP2(PHOENIX PRAYER).mp3
@@ -428,7 +428,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 ゴブリンスレイヤー OP.(Rightfully).mp3
 ゴールデンタイム ED1(Sweet&Sweet CHERRY).mp3
 ゴールデンタイム OP1(Golden Time).mp3
-ゴールデンタイム OP2(The?world's?end).mp3
+ゴールデンタイム OP2(The♡world's♡end).mp3
 サムライチャンプルー OP(battlecry).mp3
 サーバント×サービス OP(めいあいへるぷゆー？).mp3
 シキザクラ ED(シキザクラ).mp3
@@ -477,7 +477,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 セントールの悩み ED(Edelweiss).mp3
 ゼロの使い魔 OP(First Kiss).mp3
 ゼロの使い魔F OP(I'LL BE THERE FOR YOU).mp3
-ゼロの使い魔?双月の騎士? ED(スキ？ キライ!？ スキ!!!).mp3
+ゼロの使い魔〜双月の騎士〜 ED(スキ？ キライ!？ スキ!!!).mp3
 ソマリと森の神様 ED(ココロソマリ).mp3
 ソードアート・オンライン -プログレッシブ- 星なき夜のアリア 主題歌(往け).mp3
 ソードアート・オンライン ED1(ユメセカイ).mp3
@@ -599,10 +599,10 @@ VIVY -Fluorite Eye's Song- OP.mp3
 ブラック・ブレット ED1(トコハナ).mp3
 ブラック・ブレット OP(black bullet).mp3
 ブラッドラッド OP(ViViD).mp3
-ブレンド・S OP(ぼなぺてぃーと?S).mp3
+ブレンド・S OP(ぼなぺてぃーと♡S).mp3
 プギーポップは笑わない ED(Whiteout).mp3
 プギーポップは笑わない OP(shadowgraph).mp3
-プラオレ！?PRIDE OF ORANGE? ED(オレンジ).mp3
+プラオレ！〜PRIDE OF ORANGE〜 ED(オレンジ).mp3
 プリズマ☆イリヤ ED1(Prism Sympathy).mp3
 プリズマ☆イリヤ Licht 名前の無い少女 劇場版主題歌(Just the truth).mp3
 プリズマ☆イリヤ OP(starlog).mp3
@@ -655,7 +655,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 リアデイルの大地から OP(Happy encount).mp3
 リコリス・リコイル ED(花の塔).mp3
 リコリス・リコイル OP(ALIVE).mp3
-リトルバスターズ！ OP(Little Busters! ?TV animation ver.?).mp3
+リトルバスターズ！ OP(Little Busters! 〜TV animation ver.〜).mp3
 レガリア The Three Sacred Stars OP(Divine Spell).mp3
 ロクでなし魔術講師と禁忌教典 OP(Blow out).mp3
 ログ・ホライズン ED1(Your song＊).mp3
@@ -687,7 +687,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 世話やきキツネの仙狐さん ED(もっふもふ DE よいのじゃよ).mp3
 世話やきキツネの仙狐さん OP(今宵mofumofu!!).mp3
 中二病でも恋がしたい！ -Take On Me- OP(JOURNEY).mp3
-中二病でも恋がしたい！ -Take On Me- 挿入歌(Please,Take on me?).mp3
+中二病でも恋がしたい！ -Take On Me- 挿入歌(Please,Take on me♡).mp3
 中二病でも恋がしたい！ ED(INSIDE IDENTITY).mp3
 中二病でも恋がしたい！ Lite OP(君へ).mp3
 中二病でも恋がしたい！ OP(Sparkling Daydream).mp3
@@ -702,7 +702,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 亡念のザムド OP2(BACK ON MY FEET).mp3
 人類は衰退しました ED(ユメのなかノわたしのユメ).mp3
 人類は衰退しました OP(リアルワールド).mp3
-信長協奏曲 主題歌(不可逆リフ゜レイス).mp3
+信長協奏曲 主題歌(不可逆リプレイス).mp3
 俺、ツインテールになります。 ED(ツインテール・ドリーマー!).mp3
 俺、ツインテールになります。 OP(ギミー!レボリューション).mp3
 俺の妹がこんなに可愛いわけがない OP1(irony).mp3
@@ -715,7 +715,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 処刑少女の生きる道(バージンロード) OP(Paper Bouquet).mp3
 凪のあすから ED1(アクアテラリウム).mp3
 凪のあすから ED2(三つ葉の結びめ).mp3
-凪のあすから OP1(lull?そして僕らは?).mp3
+凪のあすから OP1(lull〜そして僕らは〜).mp3
 凪のあすから OP2(ebb and flow).mp3
 凪のあすから 挿入歌(mnemonic).mp3
 刀語 ED1(言ﾉ葉).mp3
@@ -755,7 +755,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 地獄少女 宵伽 OP(ノイズ).mp3
 坂本ですが？ ED(無くした日々にさよなら).mp3
 坂本ですが？ OP(COOLEST).mp3
-城下町のダンデライオン ED(Honey?Come!!).mp3
+城下町のダンデライオン ED(Honey♥Come!!).mp3
 城下町のダンデライオン OP(Ring Ring Rainbow!!).mp3
 境界の彼方 ED(Daisy).mp3
 境界の彼方 OP(境界の彼方).mp3
@@ -792,7 +792,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 富豪刑事 Balance：UNLIMITED OP(NAVIGATOR).mp3
 小林さんちのメイドラゴン ED(イシュカン・コミュニケーション).mp3
 小林さんちのメイドラゴン OP(青空のラプソディ).mp3
-小林さんちのメイドラゴンS ED(めいど・うぃず・どらごんず???).mp3
+小林さんちのメイドラゴンS ED(めいど・うぃず・どらごんず︎❤︎).mp3
 小林さんちのメイドラゴンS OP(愛のシュプリーム！).mp3
 少女終末旅行 ED(More One Night).mp3
 少女終末旅行 OP(動く、動く).mp3
@@ -996,7 +996,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 私に天使が舞い降りた!キャラソン(シュガーコート・ドリーム).mp3
 私に天使が舞い降りた!キャラソン(私に''好き''が舞い降りた).mp3
 私の百合はお仕事です！ ED(夢が覚めても).mp3
-私の百合はお仕事です！ OP(秘密?Melody).mp3
+私の百合はお仕事です！ OP(秘密♡Melody).mp3
 究極進化したフルダイブRPGが現実よりもクソゲーだったら OP(ANSWER).mp3
 空中ブランコ  ED(shangri la (yoshinori sunahara 2009 remod)).mp3
 空中ブランコ OP(Upside Down).mp3
@@ -1032,9 +1032,9 @@ VIVY -Fluorite Eye's Song- OP.mp3
 聖痕のクェイサー  OP2(Baptize).mp3
 艦隊これくしょん -艦これ- ED1(吹雪.mp3
 艦隊これくしょん -艦これ- OP(海色).mp3
-色つ゛く世界の明日から ED(未明の君と薄明の魔法).mp3
-色つ゛く世界の明日から OP(17才).mp3
-色つ゛く世界の明日から 挿入歌(color capsule).mp3
+色づく世界の明日から ED(未明の君と薄明の魔法).mp3
+色づく世界の明日から OP(17才).mp3
+色づく世界の明日から 挿入歌(color capsule).mp3
 英雄王、武を極めるため転生す ～そして、世界最強の見習い騎士♀～ OP(DAY1).mp3
 荒ぶる季節の乙女どもよ。 OP(乙女どもよ。).mp3
 荒野のコトブキ飛行隊 ED(翼を持つ者たち).mp3
@@ -1043,7 +1043,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 蒼き鋼のアルペジオ -アルス・ノヴァ- ED1(ブルー・フィールド).mp3
 蒼き鋼のアルペジオ -アルス・ノヴァ- OP(SAVIOR OF SONG).mp3
 蒼の彼方のフォーリズム ED1(a-gain).mp3
-蒼の彼方のフォーリズム OP(Contrail?軌跡?).mp3
+蒼の彼方のフォーリズム OP(Contrail〜軌跡〜).mp3
 薔薇王の葬列 ED1(悪夢).mp3
 虚構推理 OP(モノノケ・イン・ザ・フィクション).mp3
 虫かぶり姫 ED(革表紙).mp3
@@ -1138,9 +1138,9 @@ VIVY -Fluorite Eye's Song- OP.mp3
 魔王城でおやすみ ED(Gimmme!).mp3
 魔王学院の不適合者 II ED(エソア).mp3
 魔王学院の不適合者 II OP(SEIEN).mp3
-魔王学院の不適合者 ?史上最強の魔王の始祖、転生して子孫たちの学校へ通う? ED(ハミダシモノ).mp3
-魔王学院の不適合者 ?史上最強の魔王の始祖、転生して子孫たちの学校へ通う? OP1(正解不正解).mp3
-魔王学院の不適合者 ?史上最強の魔王の始祖、転生して子孫たちの学校へ通う? OP1-1(正解不正解 feat.アノス・ヴォルディゴード).mp3
+魔王学院の不適合者 〜史上最強の魔王の始祖、転生して子孫たちの学校へ通う〜 ED(ハミダシモノ).mp3
+魔王学院の不適合者 〜史上最強の魔王の始祖、転生して子孫たちの学校へ通う〜 OP1(正解不正解).mp3
+魔王学院の不適合者 〜史上最強の魔王の始祖、転生して子孫たちの学校へ通う〜 OP1-1(正解不正解 feat.アノス・ヴォルディゴード).mp3
 魔術士オーフェンはぐれ旅 アーバンラマ編 ED(ファンタジック・パートナー).mp3
 魔術士オーフェンはぐれ旅 聖域編 ED(終焉のDestiny).mp3
 黄昏乙女×アムネジア ED(カランドリエ).mp3
