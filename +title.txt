@@ -159,6 +159,8 @@ VIVY -Fluorite Eye's Song- OP.mp3
 【推しの子】 OP(アイドル).mp3
 あそびあそばせ OP(スリピス).mp3
 あの日見た花の名前を僕達はまだ知らない。 OP(青い栞).mp3
+あやかしトライアングル ED(厭わない).mp3
+あやかしトライアングル OP(熱風は流転する).mp3
 ありふれた職業で世界最強 2nd season ED(外道讃歌).mp3
 ありふれた職業で世界最強 2nd season OP(Daylight).mp3
 ありふれた職業で世界最強 ED(ハジメノウタ).mp3
@@ -186,6 +188,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 きんいろモザイク ED(Your Voice).mp3
 きんいろモザイク OP(Jumping!!).mp3
 きんいろモザイク Pretty Days OP(Happy★Pretty★Clover).mp3
+ぎんぎつね OP(tiny lamp).mp3
 くまクマ熊ベアー ED(あのね).mp3
 くまクマ熊ベアー OP(イツカノキオク).mp3
 くまクマ熊ベアーぱーんち！ ED(ずっと).mp3
@@ -320,6 +323,9 @@ VIVY -Fluorite Eye's Song- OP.mp3
 みなみけ OP(経験値上昇中☆).mp3
 みなみけ ただいま  OP(シアワセ☆ハイテンション↑↑).mp3
 もののがたり OP(恋衣).mp3
+もやしもん OP(カリキュラム).mp3
+もやしもん リターンズ ED2(最近).mp3
+もやしもん リターンズ OP(Wake Up).mp3
 やはり俺の青春ラブコメはまちがっている。完 OP(芽ぐみの雨).mp3
 やはり俺の青春ラブコメはまちがっている。続 OP(春擬き).mp3
 ゆるキャン△ ED(ふゆびより).mp3
@@ -471,6 +477,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 ストライク・ザ・ブラッド OVA4 OP.mp3
 スパイ教室 ED(Secret Code).mp3
 スパイ教室 OP(灯火).mp3
+スペース☆ダンディ ED1(X次元へようこそ).mp3
 スペース☆ダンディ OP(ビバナミダ).mp3
 スライム倒して300年、知らないうちにレベルMAXになってました ED.mp3
 セイクリッドセブン ED(輝跡 -kiseki-).mp3
@@ -600,6 +607,10 @@ VIVY -Fluorite Eye's Song- OP.mp3
 ブラック・ブレット ED1(トコハナ).mp3
 ブラック・ブレット OP(black bullet).mp3
 ブラッドラッド OP(ViViD).mp3
+ブルーロック ED1(WINNER).mp3
+ブルーロック ED2(Numbness like a ginger).mp3
+ブルーロック OP1(カオスが極まる).mp3
+ブルーロック OP2(Judgement).mp3
 ブレンド・S OP(ぼなぺてぃーと♡S).mp3
 プギーポップは笑わない ED(Whiteout).mp3
 プギーポップは笑わない OP(shadowgraph).mp3
@@ -633,12 +644,15 @@ VIVY -Fluorite Eye's Song- OP.mp3
 マギアレコード 魔法少女まどか☆マギカ外伝 ED1(アリシア).mp3
 マギアレコード 魔法少女まどか☆マギカ外伝 ED2(ニグレド).mp3
 マギアレコード 魔法少女まどか☆マギカ外伝 OP(ごまかし).mp3
+マッシュル-MASHLE-  OP(Knock Out).mp3
+マッシュル-MASHLE- ED(シュークリーム・ファンク).mp3
 マブラヴ オルタネイティヴ 第1期 ED日本語ver(TRISTAR(Japanese ver.)).mp3
 ムヒョとロージーの魔法律相談事務所 ED(ホトハシル).mp3
 ムヒョとロージーの魔法律相談事務所2 OP(イノチノアカシ).mp3
 メイドインアビス OP(Deep in Abyss).mp3
 メイドインアビス 烈日の黄金郷 ED(Endless Embrace).mp3
 メイドインアビス 烈日の黄金郷 OP(かたち).mp3
+メルヘン・メドヘン OP(わたしのための物語 ～My Uncompleted Story～).mp3
 ヤマノススメ ED(スタッカート・デイズ).mp3
 ヤマノススメ Next Summit ED(扉を開けてベルを鳴らそう).mp3
 ヤマノススメ Next Summit OP(想いのち晴れ).mp3
@@ -686,6 +700,8 @@ VIVY -Fluorite Eye's Song- OP.mp3
 ヴィンランド・サガ ED2(Drown).mp3
 ヴィンランド・サガ OP2(Dark Crow).mp3
 七つの大罪 怨嗟のエジンバラ 前編 OP(LEMONADE).mp3
+三ツ星カラーズ ED(ミラクルカラーズ☆本日も異常ナシ！).mp3
+三ツ星カラーズ OP(カラーズぱわーにおまかせろ！).mp3
 世界の終わりに柴犬と ED(君と世界の終わりに).mp3
 世界最高の暗殺者、異世界貴族に転生する OP(Dark seeks light).mp3
 世話やきキツネの仙狐さん ED(もっふもふ DE よいのじゃよ).mp3
@@ -712,7 +728,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 俺の妹がこんなに可愛いわけがない OP1(irony).mp3
 僕だけがいない街 ED(それは小さな光のような).mp3
 僕だけがいない街 OP(Re：Re).mp3
-僕の心のヤバイやつ(数センチメンタル).mp3
+僕の心のヤバイやつ ED(数センチメンタル).mp3
 僕は友達が少ない OP(残念系隣人部★★☆（星二つ半）).mp3
 僕は友達が少ないNEXT OP(Be My Friend).mp3
 冰剣の魔術師が世界を統べる ED(ラウドへイラー).mp3
@@ -867,6 +883,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 最果てのパラディン OP(The Sacred Torch).mp3
 月刊少女野崎くん ED(ウラオモテ・フォーチュン).mp3
 月刊少女野崎くん OP(君じゃなきゃダメみたい).mp3
+有頂天家族 ED(ケセラセラ).mp3
 朝霧の巫女 OP(faint love).mp3
 未来日記 ED1(Blood teller).mp3
 未来日記 OP1(空想メソロギヰ).mp3
@@ -970,6 +987,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 異世界チート魔術師 ED(小さな想い).mp3
 異世界チート魔術師 OP(PANTA RHEI).mp3
 異世界ワンターンキル姉さん ～姉同伴の異世界生活はじめました～ OP(華麗ワンターン).mp3
+痛いのは嫌なので防御力に極振りしたいと思います。2  OP(この盾に､隠れます。).mp3
 痛いのは嫌なので防御力に極振りしたいと思います。2 ED(Step for Joy).mp3
 監獄学園 OP(愛のプリズン).mp3
 監獄学園 ドラマ(衝動).mp3
@@ -1014,6 +1032,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 約束のネバーランド 第1期 ED2(Lamp).mp3
 約束のネバーランド 第1期 OP(Touch Off).mp3
 約束のネバーランド 第2期 OP(アイデンティティ).mp3
+紅殻のパンドラ ED(LoSe±CoNtRoL).mp3
 紅殻のパンドラ OP(hopeness).mp3
 純潔のマリア OP(Philosophy of Dear World).mp3
 終わりのセラフ OP(X.U.).mp3
