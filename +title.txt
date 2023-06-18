@@ -153,7 +153,7 @@ TIGER & BUNNY OP1(オリオンをなぞる).mp3
 To LOVEる -とらぶる- ダークネス OP(楽園PROJECT).mp3
 UN-GO ED(Fantasy).mp3
 UN-GO OP(How to Go).mp3
-VIVY -Fluorite Eye's Song- OP.mp3
+VIVY -Fluorite Eye's Song- OP(Sing My Pleasure).mp3
 【俗・】さよなら絶望先生 OP1(空想ルンバ).mp3
 【推しの子】 ED(メフィスト).mp3
 【推しの子】 OP(アイドル).mp3
@@ -474,12 +474,12 @@ VIVY -Fluorite Eye's Song- OP.mp3
 ストライク・ザ・ブラッド OVA2 OP(Blood on the EDGE).mp3
 ストライク・ザ・ブラッド OVA3 ED(LOVE STOIC).mp3
 ストライク・ザ・ブラッド OVA3 OP(Blood and Emotions).mp3
-ストライク・ザ・ブラッド OVA4 OP.mp3
+ストライク・ザ・ブラッド OVA4・OVA5 OP(暁のカレイドブラッド).mp3
 スパイ教室 ED(Secret Code).mp3
 スパイ教室 OP(灯火).mp3
 スペース☆ダンディ ED1(X次元へようこそ).mp3
 スペース☆ダンディ OP(ビバナミダ).mp3
-スライム倒して300年、知らないうちにレベルMAXになってました ED.mp3
+スライム倒して300年、知らないうちにレベルMAXになってました ED(Viewtiful Days!).mp3
 セイクリッドセブン ED(輝跡 -kiseki-).mp3
 セイクリッドセブン OP(stone cold).mp3
 セントールの悩み ED(Edelweiss).mp3
@@ -681,7 +681,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 ログ・ホライズン OP(database feat. TAKUMA（10-FEET）).mp3
 ローゼンメイデン OP(禁じられた遊び).mp3
 ローゼンメイデン(新) OP(私の薔薇を喰みなさい).mp3
-ローゼンメイデントロイメント OP.mp3
+ローゼンメイデントロイメント OP(聖少女領域).mp3
 ロード オブ ヴァーミリオン 紅蓮の王 ED(紅く、絶望の花。).mp3
 ロード オブ ヴァーミリオン 紅蓮の王 OP(天使よ故郷を聞け).mp3
 ロード・エルメロイII世の事件簿 ED(雲雀).mp3
@@ -1014,7 +1014,7 @@ VIVY -Fluorite Eye's Song- OP.mp3
 神達に拾われた男 OP(ヤサシイセカイ).mp3
 神達に拾われた男2 ED(ドラム式探査機).mp3
 神達に拾われた男2 OP(Way to go).mp3
-私、能力は平均値でって言ったよね! OP.mp3
+私、能力は平均値でって言ったよね! OP(スマイルスキル＝スキスキル！).mp3
 私に天使が舞い降りた! ED(ハッピー・ハッピー・フレンズ).mp3
 私に天使が舞い降りた! OP(気ままな天使たち).mp3
 私に天使が舞い降りた!キャラソン(あかいろリトルリーダー).mp3
