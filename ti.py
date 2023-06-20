@@ -23,11 +23,12 @@ base = os.getcwd()
 files_path = glob.glob(os.path.join(base,"*.mp3"))
 files = [os.path.basename(i) for i in files_path]
 max = len(files)
+# print(max)
 
 with open("+title.txt",'w+', encoding='utf-8') as f:
     for i in range(max):
         if i == j:
-            print(str(i)+":"+str(j))
+            # print(str(i)+":"+str(j))
             bdata = []
             for j in count(i):
                 if j < max - 1:
@@ -38,12 +39,15 @@ with open("+title.txt",'w+', encoding='utf-8') as f:
                     files[j] += "\n"
                     bdata.append(files[j])
                     b = files[j][:files[j].find("(")]
-                    b = b[:b.rfind(" ")]
                     a = files[j+1][:files[j+1].find("(")]
+                    b = b[:b.rfind(" ")]
                     a = a[:a.rfind(" ")]
                     if a != b:
+                        print("a:"+a+"|b:"+b)
                         j += 1
                         break
+                    elif j+1 == max-1:
+                        bdata.append(files[max-1])
                 else:
                     break
             print(bdata)
@@ -51,7 +55,7 @@ with open("+title.txt",'w+', encoding='utf-8') as f:
             if lb != 1:
                 k = 0
                 while(k < lb):
-                    print(str(k)+":"+bdata[k])
+                    # print(str(k)+":"+bdata[k])
                     for s in sym:
                         if s in bdata[k]:
                             if k+1 < lb:
@@ -78,3 +82,5 @@ with open("+title.txt",'w+', encoding='utf-8') as f:
             # print(tdata)
             f.writelines(tdata)
             tdata = []
+
+            # yt-dlp
