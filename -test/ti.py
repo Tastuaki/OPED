@@ -26,7 +26,7 @@ files = [os.path.basename(i) for i in files_path]
 max = len(files)
 # print(max)
 
-with open("+title.txt",'w+', encoding='utf-8') as f:
+with open("-title.txt",'w+', encoding='utf-8') as f:
     for i in range(max):
         if i == j:
             print(str(i)+":"+str(j))
