@@ -19,14 +19,14 @@ def ex(s,data,p):
             od.append(data[i])
     return od
 
-os.chdir('../')
+# os.chdir('../')
 base = os.getcwd()
-files_path = glob.glob(os.path.join(base,"*.mp3"))
+files_path = glob.glob(os.path.join(base+"/down","*.mp3"))
 files = [os.path.basename(i) for i in files_path]
 max = len(files)
 # print(max)
 
-with open("p/title",'w+', encoding='utf-8') as f:
+with open("new",'w+', encoding='utf-8') as f:
     for i in range(max):
         if i == j:
             # print(str(i)+":"+str(j))
