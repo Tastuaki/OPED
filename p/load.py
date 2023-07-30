@@ -39,7 +39,7 @@ def mp3_converter(res):
     log = log[:log.find(" dB")]
 
     vodb = 10**((-19.8-(float(log)))/20)
-    com = "ffmpeg -i \""+title+"_.mp3\" -vn -af volume="+str(vodb)+" -hide_banner -loglevel error \""+title+".mp3\""
+    com = "ffmpeg -i \""+title+"_.mp3\" -vn -af volume="+str(vodb)+" -hide_banner -loglevel error \"down/"+title+".mp3\""
     p = subprocess.Popen(com,shell=True)
     print("音量調整中",end="")
     while p.poll() == None:
@@ -64,5 +64,5 @@ else:
         res = ydl.extract_info(url)
         title = title_load(res)
         mp3_converter(title)
-    with open("URL.txe",'w') as f:
+    with open("URL.txt",'w') as f:
         f.write("")
