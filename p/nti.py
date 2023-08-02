@@ -47,8 +47,10 @@ with open("new",'w+', encoding='utf-8') as f:
                         print("a:"+a+"|b:"+b)
                         j += 1
                         break
-                    elif j+1 == max-1:
-                        bdata.append(files[max-1] + "\n")
+                    # elif j+1 == max-1:
+                    #     bdata.append(files[max-1] + "\n")
+                elif j == max-1:
+                    bdata.append(files[max-1] + "\n")
                 else:
                     break
             print(bdata)
