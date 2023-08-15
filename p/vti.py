@@ -18,7 +18,7 @@ with open("../p/vocaloid",'w+', encoding='utf-8') as f:
             orow = row
             row = row.replace("〜","～")
             os.rename(base+"\\"+orow,base+"\\"+row)
-        row += "\n"
+        row =r"v/"+ row +"\n"
         f.writelines(row)
 
 # out = subprocess.run(["dir","*.mp3","/b",">","++title.txt"],shell=True)
