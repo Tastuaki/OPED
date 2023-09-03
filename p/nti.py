@@ -36,7 +36,7 @@ with open("new",'w+', encoding='utf-8') as f:
                     if "〜" in files[j]:
                         orow = files[j]
                         files[j] = files[j].replace("〜","～")
-                        os.rename(base+"\\"+orow,base+"\\"+files[i])
+                        # os.rename(base+"\\"+orow,base+"\\"+files[i])
                     files[j] += "\n"
                     bdata.append(files[j])
                     b = files[j][:files[j].find("(")]
