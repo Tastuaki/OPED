@@ -17,8 +17,10 @@ def ex(s,data,p):
     od = []
     l = len(data)
     for i in range(p,l):
+        # if data[i].count("(") == 1:
         if s in data[i][:data[i].find("(")]:
             od.append(data[i])
+            # print(data[i])
     return od
 
 # os.chdir('../')
@@ -58,7 +60,7 @@ with open("new",'w+', encoding='utf-8') as f:
                     bdata.append(files[max-1] + "\n")
                 else:
                     break
-            print(bdata)
+            # print(bdata)
             lb = len(bdata)
             if lb != 1:
                 k = 0
@@ -96,4 +98,6 @@ with open("new",'w+', encoding='utf-8') as f:
             f.writelines(tdata)
             tdata = []
 
-subprocess.run("python "+base+"\\ti.py")
+# os.chdir('../')
+print(os.getcwd())
+# subprocess.run("python "+base+"\\ti.py")
