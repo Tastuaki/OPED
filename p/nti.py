@@ -57,7 +57,8 @@ with open(base+"\\new",'w+', encoding='utf-8') as f:
                     # elif j+1 == max-1:
                     #     bdata.append(files[max-1] + "\n")
                 elif j == max-1:
-                    bdata.append(files[max-1] + "\n")
+                    shutil.copy2(files_path[j],mb+"\\"+files[j])
+                    bdata.append(files[j] + "\n")
                 else:
                     break
             # print(bdata)
