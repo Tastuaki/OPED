@@ -1,0 +1,72 @@
+import re
+import urllib.request
+from itertools import count
+
+def indata(txt):
+    t = ""
+    ts = []
+    txt = txt.replace("\n","")
+    # print(txt)
+    for i in count():
+        if "<" == txt[0]:
+            txt = txt[txt.find(">")+1:]
+            # print(txt)
+        else:
+            if ">" == txt[len(txt)-1]:
+                txt = txt[:txt.rfind("</")]
+                # print(txt) 
+            else:
+                if ">" in txt:
+                    t,txt = txt.split("<",1)
+                    txt = "<"+txt
+                    ts.append(t)
+                    continue
+                else:
+                    if len(ts) > 0:
+                        ts.append(txt)
+                    break
+    # print(ts)
+    if len(ts) > 1:
+        txt = ""
+        for t in ts:
+            txt += t + "\n"
+    return txt
+
+burl="https://www.animatetimes.com/tag/details.php?id=5947"
+
+try:
+    all = urllib.request.urlopen(burl).readlines()
+except urllib.error.URLError:
+    print("\""+burl+"\""+" Not Found")
+for h in range(len(all)):
+    all[h] = all[h].decode("utf-8")
+
+tin = []
+end = False
+for i,data in enumerate(all):
+    if "アニメ一覧目次</h2>" in data:
+        for j in range(i,len(all)):
+            if "</div>" in all[j]:
+                end = True
+                break
+            elif "<li>" in all[j] and "（再放送）" not in all[j]:
+                tis = indata(all[j]).replace("\n","").replace("\r","")
+                tis = re.sub(" ([2-99]+)期","第\\1期",tis)
+                tis = re.sub("第([2-99]+)クール","第\\1期",tis)
+                tin.append(tis)
+                # print(tis)
+    if end:
+        break
+
+# print(title)
+with open("all","r",encoding="UTF-8") as f:
+    all_data = f.readlines()
+
+wd = []
+for ad in all_data:
+    for ti in tin:
+        if ti in ad:
+            wd.append(ad)
+
+with open("now","w+",encoding="UTF-8") as f:
+    f.writelines(wd)
