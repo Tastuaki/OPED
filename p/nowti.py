@@ -32,6 +32,14 @@ def indata(txt):
             txt += t + "\n"
     return txt
 
+def title_load(title):
+    nosave=["\\","/",":","*","?",'"',"<",">","|"]
+    oksave=["⧹","⧸","：","＊","？",'＂',"＜","＞","｜"]
+
+    for ns in nosave:
+        title = title.replace(ns,oksave[nosave.index(ns)])
+    return title
+
 burl="https://www.animatetimes.com/tag/details.php?id=5947"
 
 try:
@@ -53,7 +61,7 @@ for i,data in enumerate(all):
                 tis = indata(all[j]).replace("\n","").replace("\r","")
                 tis = re.sub(" ([2-99]+)期","第\\1期",tis)
                 tis = re.sub("第([2-99]+)クール","第\\1期",tis)
-                tin.append(tis)
+                tin.append(title_load(tis))
                 # print(tis)
     if end:
         break
