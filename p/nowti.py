@@ -5,6 +5,7 @@ from itertools import count
 def indata(txt):
     t = ""
     ts = []
+    txt = txt.replace("\r\n","")
     txt = txt.replace("\n","")
     # print(txt)
     for i in count():
@@ -49,25 +50,49 @@ except urllib.error.URLError:
 for h in range(len(all)):
     all[h] = all[h].decode("utf-8")
 
+id = []
+idm = ""
 tin = []
 end = False
+la = len(all)
+mtitle = []
 for i,data in enumerate(all):
     if "アニメ一覧目次</h2>" in data:
-        for j in range(i,len(all)):
+        for j in range(i,la):
             if "</div>" in all[j]:
-                end = True
+                # end = True
+                idm = str(max(id))
                 break
             elif "<li>" in all[j] and "（再放送）" not in all[j]:
+                id.append(all[j][all[j].find("\"#")+2:all[j].find("\">")])
                 tis = indata(all[j]).replace("\n","").replace("\r","")
                 tis = re.sub(" ([2-99]+)期","第\\1期",tis)
                 tis = re.sub("第([2-99]+)クール","第\\1期",tis)
                 tin.append(title_load(tis))
                 # print(tis)
+    elif re.search("id=\"[1-"+idm+"]+\"",data):
+        # print("id = "+data[data.find("id=")+4:data.find("\">")])
+        idx = data[data.find("id=")+4:data.find("\">")]
+        for sid,d in enumerate(id):
+            if d == idx:
+                # print(tin[sid])
+                md = False
+                for k in range(i,la):
+                    if "</table>" in all[k]:
+                        break
+                    elif "OP：" in all[k]:
+                        mtitle.append(title_load(tin[sid]+" OP("+indata(all[k][all[k].rfind("「")+1:all[k].rfind("」")])+")").replace("\n","")+"\n")
+                    elif "ED：" in all[k]:
+                        mtitle.append(title_load(tin[sid]+" ED("+indata(all[k][all[k].rfind("「")+1:all[k].rfind("」")])+")").replace("\n","")+"\n")
+                break
     if end:
         break
 
+# print(mtitle[len(mtitle)-1])
+# print(id)
+# exit()
 # print(title)
-with open("all","r",encoding="UTF-8") as f:
+with open("all","r",encoding="UTF-8",newline="\n") as f:
     all_data = f.readlines()
 
 wd = []
@@ -76,5 +101,18 @@ for ad in all_data:
         if ti in ad:
             wd.append(ad)
 
-with open("now","w+",encoding="UTF-8") as f:
+with open("now","w+",encoding="UTF-8",newline="\n") as f:
     f.writelines(wd)
+
+print("update now")
+
+for w in wd:
+    for m in mtitle:
+        if w[:w.rfind(".")] == m.rstrip():
+            mtitle.remove(m)
+            break
+
+with open("url","a+",encoding="UTF-8",newline="\n") as f:
+    f.writelines(mtitle)
+
+print("update url")
