@@ -27,7 +27,7 @@ def ex(s,data,p):
 base = os.getcwd()
 os.chdir('../')
 mb = os.getcwd()
-files_path = glob.glob(os.path.join(base+"/down","*.mp3"))
+files_path = glob.glob(os.path.join(base+"\\down","*.mp3"))
 files = [os.path.basename(i) for i in files_path]
 max = len(files)
 # print(max)
@@ -43,7 +43,7 @@ with open(base+"\\new",'w+', encoding='utf-8') as f:
                         orow = files[j]
                         files[j] = files[j].replace("〜","～")
                         os.rename(base+"\\down\\"+orow,base+"\\down\\"+files[i])
-                    shutil.copy2(files_path[j],mb+"\\"+files[j])
+                    shutil.copy2(files_path[j].replace("〜","～"),mb+"\\"+files[j])
                     files[j] += "\n"
                     bdata.append(files[j])
                     b = files[j][:files[j].find("(")]
