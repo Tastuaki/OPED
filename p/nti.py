@@ -45,7 +45,8 @@ with open(base+"\\new",'w+', encoding='utf-8') as f:
                         os.rename(base+"\\down\\"+orow,base+"\\down\\"+files[i])
                     shutil.copy2(files_path[j].replace("〜","～"),mb+"\\"+files[j])
                     files[j] += "\n"
-                    bdata.append(files[j])
+                    if not os.path.isfile(files_path[j].replace("〜","～")):
+                        bdata.append(files[j])
                     b = files[j][:files[j].find("(")]
                     a = files[j+1][:files[j+1].find("(")]
                     b = b[:b.rfind(" ")]
@@ -57,8 +58,9 @@ with open(base+"\\new",'w+', encoding='utf-8') as f:
                     # elif j+1 == max-1:
                     #     bdata.append(files[max-1] + "\n")
                 elif j == max-1:
-                    shutil.copy2(files_path[j],mb+"\\"+files[j])
-                    bdata.append(files[j] + "\n")
+                    shutil.copy2(files_path[j].replace("〜","～"),mb+"\\"+files[j])
+                    if not os.path.isfile(files_path[j].replace("〜","～")):
+                        bdata.append(files[j] + "\n")
                 else:
                     break
             # print(bdata)
