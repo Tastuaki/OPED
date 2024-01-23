@@ -103,4 +103,4 @@ with open(base+"\\new",'w+', encoding='utf-8') as f:
 
 # os.chdir('../')
 print(os.getcwd())
-# subprocess.run("python "+base+"\\ti.py")
+# subprocess.run("python "+base+"\\nowti.py")
