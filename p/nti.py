@@ -45,8 +45,8 @@ with open(base+"\\new",'w+', encoding='utf-8') as f:
                         os.rename(base+"\\down\\"+orow,base+"\\down\\"+files[i])
                     shutil.copy2(files_path[j].replace("〜","～"),mb+"\\"+files[j])
                     files[j] += "\n"
-                    if not os.path.isfile(files_path[j].replace("〜","～")):
-                        bdata.append(files[j])
+                    # if not os.path.isfile(files_path[j].replace("〜","～")):
+                    bdata.append(files[j])
                     b = files[j][:files[j].find("(")]
                     a = files[j+1][:files[j+1].find("(")]
                     b = b[:b.rfind(" ")]
@@ -59,8 +59,8 @@ with open(base+"\\new",'w+', encoding='utf-8') as f:
                     #     bdata.append(files[max-1] + "\n")
                 elif j == max-1:
                     shutil.copy2(files_path[j].replace("〜","～"),mb+"\\"+files[j])
-                    if not os.path.isfile(files_path[j].replace("〜","～")):
-                        bdata.append(files[j] + "\n")
+                    # if not os.path.isfile(files_path[j].replace("〜","～")):
+                    bdata.append(files[j] + "\n")
                 else:
                     break
             # print(bdata)
@@ -102,5 +102,5 @@ with open(base+"\\new",'w+', encoding='utf-8') as f:
             tdata = []
 
 # os.chdir('../')
-print(os.getcwd())
+# print(os.getcwd())
 # subprocess.run("python "+base+"\\ti.py")
