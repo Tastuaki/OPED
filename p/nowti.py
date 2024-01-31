@@ -61,7 +61,6 @@ for i,data in enumerate(all):
         for j in range(i,la):
             if "</div>" in all[j]:
                 # end = True
-                idm = str(max(id))
                 break
             elif "<li>" in all[j] and "（再放送）" not in all[j]:
                 id.append(all[j][all[j].find("\"#")+2:all[j].find("\">")])
@@ -70,7 +69,8 @@ for i,data in enumerate(all):
                 tis = re.sub("第([2-99]+)クール","第\\1期",tis)
                 tin.append(title_load(tis))
                 # print(tis)
-    elif re.search("id=\"[1-"+idm+"]+\"",data):
+    # elif re.search("id=\"[1-"+idm+"]+\"",data):
+    elif "c-heading-h2" in data:
         # print("id = "+data[data.find("id=")+4:data.find("\">")])
         idx = data[data.find("id=")+4:data.find("\">")]
         for sid,d in enumerate(id):
