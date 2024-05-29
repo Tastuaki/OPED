@@ -42,7 +42,7 @@ with open(base+"\\new",'w+', encoding='utf-8') as f:
                     if "〜" in files[j]:
                         orow = files[j]
                         files[j] = files[j].replace("〜","～")
-                        os.rename(base+"\\down\\"+orow,base+"\\down\\"+files[i])
+                        os.rename(base+"\\down\\"+orow,base+"\\down\\"+files[j])
                     shutil.copy2(files_path[j].replace("〜","～"),mb+"\\"+files[j])
                     files[j] += "\n"
                     # if not os.path.isfile(files_path[j].replace("〜","～")):
