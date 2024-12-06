@@ -8,10 +8,13 @@ import glob
 # con = ""
 
 os.chdir('../v')
+# os.chdir('../p/down')
+
 base = os.getcwd()
 files_path = glob.glob(os.path.join(base,"*.mp3"))
 files = [os.path.basename(i) for i in files_path]
 
+# with open("../new",'w+', encoding='utf-8') as f:
 with open("../p/vocaloid",'w+', encoding='utf-8') as f:
     for row in files:
         if("〜" in row):
