@@ -10,8 +10,8 @@ parser.add_argument("-u","--url",default="url.txt")
 args = parser.parse_args()
 
 def title_load(title):
-    nosave=["\\","/",":","*","?",'"',"<",">","|"]
-    oksave=["⧹","⧸","：","＊","？",'＂',"＜","＞","｜"]
+    nosave=["\\","/",":","*","?",'"',"<",">","|","\n"]
+    oksave=["⧹","⧸","：","＊","？",'＂',"＜","＞","｜"," "]
 
     for ns in nosave:
         title = title.replace(ns,oksave[nosave.index(ns)])
