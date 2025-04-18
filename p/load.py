@@ -11,7 +11,7 @@ args = parser.parse_args()
 
 def title_load(title):
     nosave=["\\","/",":","*","?",'"',"<",">","|","\n"]
-    oksave=["⧹","⧸","：","＊","？",'＂',"＜","＞","｜"," "]
+    oksave=["⧹","⧸","_","＊","？",'＂',"＜","＞","｜"," "]
 
     for ns in nosave:
         title = title.replace(ns,oksave[nosave.index(ns)])
