@@ -84,7 +84,23 @@ with open("p/all",'w+', encoding='utf-8') as f:
             #                 tdata.extend(sdata[l])
             for l in range(len(sdata)):
                 if sdata[l]:
-                    # if s in sdata[l][0]:
+                    print(sdata[l])
+                    if len(sdata[l]) > 2:
+                        ls = len(sdata[l])
+                        mn = []
+                        im = []
+                        for s in sdata[l]:
+                            at,n=s.split(sym[l])
+                            at += sym[l]
+                            mn.append(n)
+                            im.append(int(n[:n.find("(")]))
+                        im.sort()
+                        sdata[l] = []
+                        for i in im:
+                            for na in mn:
+                                if na[:na.find("(")] == str(i):
+                                    sdata[l].append(at+na)
+                        print(sdata[l])
                     tdata.extend(sdata[l])
             sdata = [[],[],[],[],[],[]]
             # print(tdata)
