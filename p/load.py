@@ -11,7 +11,7 @@ args = parser.parse_args()
 
 def title_load(title):
     nosave=["\\","/",":","*","?",'"',"<",">","|","\n"]
-    oksave=["⧹","⧸","_","＊","？",'＂',"＜","＞","｜"," "]
+    oksave=["⧹","⧸","：","＊","？",'＂',"＜","＞","｜"," "]
 
     for ns in nosave:
         title = title.replace(ns,oksave[nosave.index(ns)])
@@ -20,6 +20,7 @@ def title_load(title):
 def mp3_converter(res,title=""):
     btitle = res['title']
     btitle = title_load(btitle)
+    print(btitle)
     if title == "":
         title = btitle
     else:
