@@ -15,7 +15,7 @@ files_path = glob.glob(os.path.join(base,"*.mp3"))
 files = [os.path.basename(i) for i in files_path]
 
 # with open("../new",'w+', encoding='utf-8') as f:
-with open("../p/game",'w+', encoding='utf-8') as f:
+with open("../p/game",'a+', encoding='utf-8') as f:
     for row in files:
         if("〜" in row):
             orow = row
