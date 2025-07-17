@@ -41,7 +41,7 @@ def title_load(title):
         title = title.replace(ns,oksave[nosave.index(ns)])
     return title
 
-burl="https://www.animatetimes.com/tag/details.php?id=5228"
+burl="https://www.animatetimes.com/tag/details.php?id=5806"
 
 try:
     all = urllib.request.urlopen(burl).readlines()
@@ -81,9 +81,9 @@ for i,data in enumerate(all):
                     if "</table>" in all[k]:
                         break
                     elif "OP：" in all[k]:
-                        mtitle.append(title_load(tin[sid]+" OP("+indata(all[k][all[k].rfind("「")+1:all[k].rfind("」")])+")"+[all[k].rfind("」"):]).replace("\n","")+"\n")
+                        mtitle.append(title_load(tin[sid]+" OP("+indata(all[k][all[k].rfind("「")+1:all[k].rfind("」")])+") ||"+indata(all[k][all[k].rfind("」")+1:all[k].rfind("<br")])).replace("\n","")+"\n")
                     elif "ED：" in all[k]:
-                        mtitle.append(title_load(tin[sid]+" ED("+indata(all[k][all[k].rfind("「")+1:all[k].rfind("」")])+")"+[all[k].rfind("」"):]).replace("\n","")+"\n")
+                        mtitle.append(title_load(tin[sid]+" ED("+indata(all[k][all[k].rfind("「")+1:all[k].rfind("」")])+") ||"+indata(all[k][all[k].rfind("」")+1:all[k].rfind("公開開始年＆季節")])).replace("\n","")+"\n")
                 break
     if end:
         break
