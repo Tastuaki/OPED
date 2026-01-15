@@ -14,14 +14,14 @@ base = os.getcwd()
 files_path = glob.glob(os.path.join(base,"*.mp3"))
 files = [os.path.basename(i) for i in files_path]
 
-# with open("../new",'w+', encoding='utf-8') as f:
-with open("../game",'a+', encoding='utf-8') as f:
+with open("../new",'w+', encoding='utf-8') as f:
+# with open("../generic",'a+', encoding='utf-8') as f:
     for row in files:
         if("〜" in row):
             orow = row
             row = row.replace("〜","～")
             os.rename(base+"\\"+orow,base+"\\"+row)
-        row =r"g/"+ row +"\n"
+        row = row +"\n"
         f.writelines(row)
 
 # out = subprocess.run(["dir","*.mp3","/b",">","++title.txt"],shell=True)

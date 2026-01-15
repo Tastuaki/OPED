@@ -41,7 +41,7 @@ def title_load(title):
         title = title.replace(ns,oksave[nosave.index(ns)])
     return title
 
-burl="https://www.animatetimes.com/tag/details.php?id=5947"
+burl="https://www.animatetimes.com/tag/details.php?id=6212"
 
 try:
     all = urllib.request.urlopen(burl).readlines()
