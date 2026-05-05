@@ -5,16 +5,19 @@ from itertools import count
 def indata(txt):
     t = ""
     ts = []
+    otxt = ""
     txt = txt.replace("\r\n","")
     txt = txt.replace("\n","")
     # print(txt)
     for i in count():
         if "<" == txt[0]:
             txt = txt[txt.find(">")+1:]
-            # print(txt)
+            # if txt != otxt:
+            #     print(txt)
+            # otxt = txt
         else:
             if ">" == txt[len(txt)-1]:
-                txt = txt[:txt.rfind("</")]
+                txt = txt[:txt.rfind("<")]
                 # print(txt) 
             else:
                 if ">" in txt:
@@ -41,7 +44,7 @@ def title_load(title):
         title = title.replace(ns,oksave[nosave.index(ns)])
     return title
 
-burl="https://www.animatetimes.com/tag/details.php?id=6212"
+burl="https://www.animatetimes.com/tag/details.php?id=5228"
 
 try:
     all = urllib.request.urlopen(burl).readlines()
@@ -75,7 +78,7 @@ for i,data in enumerate(all):
         idx = data[data.find("id=")+4:data.find("\">")]
         for sid,d in enumerate(id):
             if d == idx:
-                # print(tin[sid])
+                print(tin[sid])
                 md = False
                 for k in range(i,la):
                     if "</table>" in all[k]:
