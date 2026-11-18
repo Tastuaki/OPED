@@ -52,7 +52,7 @@ with open(base+"\\new",'w+', encoding='utf-8') as f:
                     b = b[:b.rfind(" ")]
                     a = a[:a.rfind(" ")]
                     if a != b:
-                        print("a:"+a+"|b:"+b)
+                        # print("a:"+a+"|b:"+b)
                         j += 1
                         break
                     # elif j+1 == max-1:
@@ -63,12 +63,12 @@ with open(base+"\\new",'w+', encoding='utf-8') as f:
                     bdata.append(files[j] + "\n")
                 else:
                     break
-            # print(bdata)
+            print(bdata)
             lb = len(bdata)
             if lb != 1:
                 k = 0
                 while(k < lb):
-                    # print(str(k)+":"+bdata[k])
+                    print(str(k)+":"+bdata[k])
                     for s in sym:
                         if s in bdata[k]:
                             if k+1 < lb:
@@ -82,10 +82,11 @@ with open(base+"\\new",'w+', encoding='utf-8') as f:
                                 break
                     k += 1
             else:
-                for s in sym:
-                    if s in bdata[0]:
-                        sdata[sym.index(s)] = [bdata[0]]
-                        break
+                sdata[sym.index(s)] = [bdata[0]]
+                # for s in sym:
+                    # if s in bdata[0]:
+                    #     sdata[sym.index(s)] = [bdata[0]]
+                    #     break
             # print(sdata)
             # for s in sym:
             #     for l in range(len(sdata)):
@@ -94,7 +95,7 @@ with open(base+"\\new",'w+', encoding='utf-8') as f:
             #                 tdata.extend(sdata[l])
             for l in range(len(sdata)):
                 if sdata[l]:
-                    print(sdata[l])
+                    # print(sdata[l])
                     if len(sdata[l]) > 2:
                         ls = len(sdata[l])
                         mn = []
@@ -110,7 +111,7 @@ with open(base+"\\new",'w+', encoding='utf-8') as f:
                             for na in mn:
                                 if na[:na.find("(")] == str(i):
                                     sdata[l].append(at+na)
-                        print(sdata[l])
+                        # print(sdata[l])
                     tdata.extend(sdata[l])
             sdata = [[],[],[],[],[],[]]
             # print(tdata)
