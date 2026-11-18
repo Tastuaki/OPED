@@ -70,6 +70,8 @@ else:
         url = url.replace("\n","")
         title = url[url.find(" ")+1:]
         url = url[:url.find(" ")]
+        if "https" not in url:
+            url = "https://www.youtube.com/watch?v="+url
         res = ydl.extract_info(url)
         mp3_converter(res,title)
     with open("URL.txt",'w') as f:
